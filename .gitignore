@@ -1,0 +1,35 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.env/
+.venv/
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyd
+
+# VS Code or IDE files
+.vscode/
+.idea/
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data and runtime folders
+data/
+uploads/
+vector_store/
+
+# Optional: ignore checkpoints or model weights if you add ML models later
+*.ckpt
+*.pt
+*.h5
